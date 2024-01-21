@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Top Navigation Bar Styles */
+.top-bar {
+    display: flex;
+    justify-content:space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+.top-bar img {
+    width: 200px;
+}
+
+.top-bar .navigation-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar .navigation-links div {
+    padding: 20px;
+    color: #666;
+    cursor: pointer;
+}
+
+/* Main Image Styles */
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Content Styles */
+.main-content {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Inter, serif;
+}
+
+.headline {
+    color: #424242;
+    font-size: 2.75rem;
+    font-weight: 400;
+}
+
+.main-content p {
+    color: #424242;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* Sign-up Button Styles */
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sign-up-button span {
+    color: whitesmoke;
+    background-color: #387ed1;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px 30px;
+}
